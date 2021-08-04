@@ -33,7 +33,7 @@ public class TestGreeter {
 
     @Test
   public void greetShouldIncludeGreetingMessage() {
-    String someone = "World, Thanks im riyaherin and this is my first jenkin integration";
+    String someone = "World, Thanks im riyathomas and this is my first jenkin integration";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
